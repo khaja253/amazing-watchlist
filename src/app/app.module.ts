@@ -6,12 +6,18 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './search/search.component';
+import { SearchResultsComponent } from './search-results/search-results.component';
+import { ShowDetailsComponent } from './show-details/show-details.component';
+import { ShowInfoComponent } from './show-info/show-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SearchComponent
+    SearchComponent,
+    SearchResultsComponent,
+    ShowDetailsComponent,
+    ShowInfoComponent
   ],
   imports: [
     BrowserModule,
