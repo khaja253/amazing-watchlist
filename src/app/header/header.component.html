@@ -1,13 +1,5 @@
-<mat-toolbar color="primary">
+<mat-toolbar color="primary" class="pad">
   <span>AW</span>
-  <mat-form-feild>
-    <mat-label>Search</mat-label>
-    <input matInput type="text" [(ngModel)]="query">
-    <button mat-button *ngIf="query" matSuffix mat-icon-button aria-label="Clear" (click)="query=''">
-      <mat-icon>close</mat-icon>
-    </button>
-
-  </mat-form-feild>
+  <span class="spacer"></span>
+  <app-search></app-search>
 </mat-toolbar>
-<h1>{{query}}</h1>
-
