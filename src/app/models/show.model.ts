@@ -7,7 +7,7 @@ export class Show {
   image: string;
   language: string;
 
-  constructor(showInfo) {
+  constructor(showInfo: { name: any; language: any; genres: any; id: any; summary: any; status: any; image: any; }) {
     this.id = showInfo.id;
     this.language = showInfo.language;
     this.name = showInfo.name;
