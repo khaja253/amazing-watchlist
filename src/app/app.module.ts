@@ -19,6 +19,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 import { ServicesComponent } from './services/services.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ServicesComponent } from './services/services.component';
     ShowInfoComponent,
     ShowDetailsComponent,
     WatchlistComponent,
-    ServicesComponent
+    ServicesComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
