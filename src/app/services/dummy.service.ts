@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Show} from '../models/show.model';
-import {DummyService} from '../services/dummy.service';
+
 
 @Component({
   selector: 'app-search-results',

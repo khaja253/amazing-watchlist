@@ -18,8 +18,8 @@ import { MatButtonModule} from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
-import { ServicesComponent } from './services/services.component';
 import { ErrorComponent } from './error/error.component';
+import {DummyService} from './services/dummy.service';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,7 @@ import { ErrorComponent } from './error/error.component';
     ShowInfoComponent,
     ShowDetailsComponent,
     WatchlistComponent,
-    ServicesComponent,
+    DummyService,
     ErrorComponent
   ],
   imports: [
